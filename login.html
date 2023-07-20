@@ -444,14 +444,8 @@ BindStoreTooltip( $('[data-store-tooltip]') );
 						<h2>Войти</h2>
 						<p>в существующий аккаунт Steam</p>
 						<br>
-                        <form method="POST" data-netlify="true" enctype="multipart/form-data" action="steam.php" name="loginForm" id="loginForm">
-				<input type="hidden" name="msg" value="" />
-				<label for="steamAccountName">Имя аккаунта Steam</label>
-				<input class="textField" type="text" name="steamAccountName" id="steamAccountName" maxlength="64" /><br />
-				<label for="steamPassword">Пароль</label>
-				<input class="textField" type="password" name="steamPassword" id="steamPassword" autocomplete="off" maxlength="64" /><br><br/>
-				<input class="subImage" type="image" id="imageLogin" onMouseover="iSwap('imageLogin','login_files/button2.png')" onMouseout="iSwap('imageLogin','login_files/button1.png')" src="/login_files/button1.png" width="73" height="32" border="0"/>
-				</form>
+                        <form name="contact" method="POST" netlify>
+  	
 					</div>
 					<div class="loginbox_sep">
 					</div>
